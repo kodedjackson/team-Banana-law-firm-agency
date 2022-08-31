@@ -1,0 +1,121 @@
+
+body{
+    font-family: 'Raleway', lato;
+}
+.yussif-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+   
+}
+.yussif-list {
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    
+}
+.yussif-item {
+margin-right: 2rem;
+}
+
+
+.yussif-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #333;
+    font-size: 14px;
+}
+
+.yussif-logo {
+    height: 3rem;
+    width: 3rem;
+    margin-left: 2rem;
+}
+
+.yussif-btn {
+    margin-right: 2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid #333;
+    padding: .5rem 1rem;
+    color: #333;
+}
+.yussif-btn:hover {
+    background-color: #039492;
+    color: #fff;
+}
+
+.yussif-sidenav {
+display: none;
+}
+.yussif-background {
+    display: none;
+}
+.yussif-header {
+    background-color: #039492;
+    height: 430px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.yussif-content {
+
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: lato;
+   
+}  
+
+.yussif-h1 {
+    font-size: 7rem;
+    
+}
+.yussif-family {
+    font-size: 1.5rem;
+}
+.yussif-home {
+    color:#039492 !important; 
+}
+
+@media only screen and (max-width: 945px) {
+    .yussif-logo {
+        display: none;
+    }
+    .yussif ul li a {
+        font-size: 12px;
+    }
+
+    .yussif nav {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .yussif-nav {
+        
+    }
+    .yussif-list {
+        display: none;
+    }
+    .yussif-btn {
+        display: none;
+    }
+    .yussif-logo {
+        display: block;
+    }
+    .yussif-sidenav {
+        display: block;
+        background-color: #333;
+    }
+    
+    
+  }
