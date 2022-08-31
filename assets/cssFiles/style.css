@@ -1,0 +1,45 @@
+.jayvis{
+    background-color: #a7dad9;
+    text-align: center;
+}
+
+.jayvis div{
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jayvis img{
+    width:160px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.jayvis p{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20pt;
+    line-height: 24pt;
+    color: #039492;
+    letter-spacing: 3px;
+}
+
+.jayvis h2{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 30pt;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 30px 0px;
+}
+
+.jayvis a.button{
+    display: inline-block;
+    border: 1px solid #039492;
+    padding: 1px 15px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    color: #fff;
+}
