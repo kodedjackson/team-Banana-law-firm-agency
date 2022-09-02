@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 7em 0;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.split {
+    display: flex;
+    flex-wrap: wrap;
+}
+.split >* {
+    flex-basis: 50%;
+}
