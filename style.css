@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+.container{
+  /* background-color: aqua; */
+  height: auto;
+  width: 90%;
+  height: auto;
+}
+
+.upper-div{
+  width: 100%; 
+}
+
+
+.main-div{
+  width: 100%;
+  margin-left: 40px;
+  padding: 10px 20px;
+  background: rgb(250, 244, 244);
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+
+.main-div h4{
+  color: aqua;
+  font-size: 20px;
+  font-weight: bolder; 
+}
+
+
+.icon{
+  float: right;
+  color: red;
+
+}
+.main-div p{
+
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main-div h5{
+ color:rgb(211, 207, 207);
+ font-size: 15px;
+}
+
+.main-div h6{
+color: aqua;
+font-size: 15px;
+font-weight: 200;
+
+}
+
+.main-div h6 span{
+  padding: 60px;
+  color: aqua;
+  font-size: 15px
+  
+ 
+  }
+
+.div-container{
+  width: 100%;
+  height: auto ;
+  /* add flexbox  */
+  display: flex;
+    flex-direction: row; 
+   justify-content: space-between;   
+  
+} 
+
+.div{
+  background: rgb(250, 244, 244);
+  line-height: 20px;
+  color: gray;
+  width: 100%;
+  margin: 20px;
+  padding: 10px 30px;
+  line-height: 20px; 
+  font-size: 15px;
+
+}
+
+.fa{
+  color: red;
+}
+ 
+.quote{
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+
+
+.name-div{
+  padding:20px 30px;
+}
+
+
+.name-div h4{
+  color:  blue;
+  font-size: 15px;
+}
+
+.name-div p{
+  color: gray;
+  font-size: 10px;
+}
+@media screen and ( max-width:1200px){
+  .main-div{
+    width: 80%;
+    margin-right: 10px;
+    
+  }
+  .div-container{
+    
+    flex-direction: column;
+    display: inline-flexbox;
+    width: 50%;
+
+
+    
+  }
+
+}
+
+
+@media screen and ( max-width:600px){
+  .main-div{
+    width: 90%;
+    margin-right: 10px;
+  
+  }
+
+  .div-container{
+    
+    flex-direction: column;
+    display: inline-flexbox;
+    width: 90%;
+    margin-left: 10px;
+    
+  }
+
+}
